@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexcent</title>
+    <link rel="stylesheet" href="nexcent.css">
+    <script src="https://kit.fontawesome.com/89345ec825.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="navbar">
+                <h1 class="logo">✅Nexcent</h1>
+                 <li onclick="opanMeniu()" class="menu"><i class="fa-solid fa-bars"></i></li>
+                <ul class="navlist">
+                   
+                    <li class="navitem">
+                        <p>Home</p>
+                    </li>
+                    <li class="navitem">
+                        <p>Features</p>
+                    </li>
+                    <li class="navitem">
+                        <p>Community</p>
+                    </li>
+                    <li class="navitem">
+                        <p>Blog</p>
+                    </li>
+                    <li class="navitem">
+                        <p>Pricing</p>
+                    </li>
+                    <li class="navitem">
+                        <button>Register now →</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <h1>Lessons and insights <span>from 8 years</span></h1>
+            <p>Where to grow your businnes as a photographer site or social media?</p>
+            <button class="button">Register</button>
+        </main>
+        <div class="footer_main">
+            <div class="footer">
+                <h2>Manage your entire community in a single system</h2>
+                <a>Who is Nextcent suitable for?</a>
+
+                <ul class="footerlist">
+                    <li class="footeritem">
+                        <h4>Membership Organisations</h4>
+                        <p>Our membership management software provides full automation of membership renewals and
+                            payments</p>
+                    </li>
+                    <li class="footeritem">
+                        <h4>National Associations</h4>
+                        <p>Our membership management software provides full automation of membership renewals and
+                            payments</p>
+                    </li>
+                    <li class="footeritem">
+                        <h4>Clubs And Group</h4>
+                        <p>Our membership management software provides full automation of membership renewals and
+                            payments</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        function opanMeniu(){
+            const sidebar = document.querySelector('.navlist');
+            sidebar.style.display = 'flex';
+        }
+        function closeMenui(){
+            const sidebar = document.querySelector('.navlist');
+            sidebar.style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>
